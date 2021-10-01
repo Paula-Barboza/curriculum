@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-image: url(../images/Contato.png);
+}
+
+header {
+    font-family: 'Bad Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    border: 1% solid rgba(255, 253, 253, 0);
+  
+    transition-property: color;
+    transition-duration: 2s;
+}
+
+header:hover {
+    color: #bd7a7a;
+    background-color: rgba(255, 255, 255, 0.192);
+  
+}
+
+h2{
+    font-family: 'Mali', cursive;
+    font-size: 32px;
+    font-style: italic;
+    
+    text-decoration-line: overline;
+ color: rgba(0, 0, 0, 0.87);
+    transition-property: color,;
+    transition-duration: 1.5s;
+ text-align: center;
+}
+
+h2:hover {
+   color:rgba(164, 117, 252, 0.651);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.479);
+}
+
+ul {
+    border-radius: 10%;
+    background-color: rgba(20, 20, 20, 0.301);
+    text-align: center;
+
+    transition-property: background-color;
+    transition-duration: 1.5s;
+    
+}
+
+ul:hover {
+    background-color: #bd7a7a63 ;
+}
+
+h5{
+    font-family: 'Indie Flower', cursive;
+    border: 1px;
+    font-size: 25px;
+    color: rgba(247, 31, 247, 0.596);
+    text-align: start;
+
+    transition-property: color;
+    transition-duration: 1.5s;
+    }
+
+ h5 a:hover {
+      color : rgba(255, 255, 255, 0.74)
+      }
+   
+ 

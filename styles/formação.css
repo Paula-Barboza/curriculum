@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');  /* Fonte Título */
+
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,300&display=swap'); /* Fonte parágrafos */
+
+body {
+    background-image: url(../images/Design\ sem\ nome\ \(3\).png);
+}
+
+h1 {
+      font-family:'Bad Script', cursive;
+      font-size: 40px;
+     
+      color: rgba(0, 0, 0, 0.822);
+     
+
+      transition-property: color, background-color;
+      transition-duration: 1.5s;
+
+     
+}
+
+h1:hover{
+    color: rgba(243, 60, 60, 0.432);
+    background-color: rgba(235, 166, 180, 0.144);
+}
+
+p {
+    font-family: 'Mali', cursive;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+
+    transition-property: color ;
+    transition-duration: 1.5s;
+}
+
+p:hover{
+    color: rgba(223, 79, 211, 0.767);
+    ;
+}
+
+li {
+    font-family: 'Mali', cursive;
+    
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0);
+
+    transition-property: background-color;
+    transition-duration: 1.5s;
+}
+
+
+li:hover{
+    background-color: rgba(172, 100, 240, 0.144);
+}
+
+h5{
+    font-family: 'Mali', cursive;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap'); /* Fonte Header */
+
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,300&display=swap'); /* Fonte do Parágrafo */
+
+header {
+  font-family: 'Bad Script', cursive;
+
+}
+
+.b1 {
+  border-radius: 10px rgba(0, 0, 0, 0) solid;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 180%;
+ 
+ 
+  transition-property: background-color, border-radius;
+  transition-duration: 2s;
+
+}
+
+.b1:hover {
+ background-color: rgba(132, 0, 255, 0.534);
+ border-radius: 80px;
+}
+
+
+
+p { 
+    font-family: 'Mali', cursive;
+    color: black;
+    font-size: 35px;
+    border: 2px rgba(255, 255, 255, 0);
+    background-color:rgba(255, 255, 255, 0) ;
+    height: 40px;
+  
+
+    transition-property: background-color, border-radius;
+    transition-duration: 2s;
+    
+}
+
+p:hover {
+background-color: rgba(199, 102, 255, 0.466);
+border-radius: 2px;
+padding-right: 2px;
+}
+
+body {
+  background-image: url(../images/fundo.png);
+  margin: 10px;
+}
+ 
+.perfil {
+  float:left;
+ 
+
+
+}
+
+img {
+  border-radius: 30px;
+  
+} 
+h5{
+  font-family: 'Mali', cursive;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  font-size: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+a {
+  color: rgb(140, 101, 245);
+  font-size: 20px;
+
+}
+ 
+a:hover {
+  color: palevioletred
+}

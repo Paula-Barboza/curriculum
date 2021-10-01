@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap'); /*  Fonte Do Título  (h1) */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /*  Fonte ul, a e li  */
+
+*{
+    list-style: none;
+}
+h1 {
+    transform: rotate(-7deg);
+    background: linear-gradient(120deg);
+    font-family:'Bad Script', cursive;
+    font-style: oblique;
+    text-align: start;
+    font-size: 100px;
+    color: rgb(48, 36, 68);
+    margin-left: 300px;
+    margin-top: 300px;
+
+
+}
+body {
+   background-image: url(https://cdna.artstation.com/p/assets/images/images/038/243/184/original/julie-lafille-gif-outro.gif?1622566380); 
+}
+  ul li a {
+      font-family:'Indie Flower', cursive;
+      font-style: italic;
+      color:rgb(48, 36, 68);
+      font-size: 28px;
+      font-style: oblique;
+     border-bottom: 2px black solid;
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+
+     transition-property: color, background-color;
+     transition-duration: 1.5s;
+  }
+
+h1.pisca-pisca {
+    border-right: solid black;
+    overflow: hidden;
+    white-space: normal;
+    width: fit-content;
+    padding: 10px;
+    animation: pisca 700ms infinite normal;
+}
+@keyframes pisca{
+    form { 
+        border-right: solid black;
+     }
+    to {
+        border-right: transparent;
+    }
+}
+
+  ul li a:hover{
+      color: rgba(233, 66, 248, 0.925);
+      background-color: rgba(250, 250, 250, 0.418);
+  }
+
+  .teste {
+      text-align: right;
+  }
+
+  p {
+    font-family:'Indie Flower', cursive;
+    font-size: 100px;
+    color: black; 
+  }
+  
+  
